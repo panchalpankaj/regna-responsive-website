@@ -1,0 +1,390 @@
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
+    width: 30%;
+    padding-top: 35px;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .menu {
+    display: none;
+  }
+
+  .hamburger {
+    padding-left: 320px;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 70%;
+    color: white;
+    font-size: 25px;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .homepage {
+    width: 100%;
+    text-align: center;
+    float: right;
+  }
+
+  .banner-txt {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    padding: 20px;
+    padding-top: 300px;
+    text-align: center;
+    z-index: 2;
+  }
+  .banner-txt h1 {
+    margin: 30px 0 10px 0;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+  }
+
+  .about {
+    margin-bottom: 0px;
+    padding-top: 0px;
+  }
+  #about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about1 {
+    order: 1;
+    width: 100%;
+    padding: 35px;
+  }
+  .about2 {
+    order: 0;
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+  }
+  .about2 img {
+    width: 600px;
+    background-size: cover;
+    position: fixed;
+  }
+
+  #About_us_heading {
+    color: #333;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+  }
+
+  .about p {
+    padding-left: 20px;
+  }
+
+  #menus_of_About {
+    padding: 20px;
+    padding-top: 10px;
+  }
+
+  .menus {
+    padding-left: 24px;
+  }
+  .menus h4 {
+    padding-left: 2px;
+  }
+  .menus p {
+    padding-left: 2px;
+    padding-top: 5px;
+  }
+
+  .beg {
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  .beg2 {
+    display: flex;
+    padding-bottom: 30px;
+  }
+  .byscop {
+    display: flex;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+  .icon-rounded {
+    float: left;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #2dc997;
+  }
+
+  .facts {
+    background-color: rgb(247, 247, 247);
+    box-sizing: border-box;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  #fact_number {
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .c1 {
+    padding: 45px;
+  }
+  .c1 span {
+    color: #2dc997;
+    font-size: 45px;
+  }
+  .service {
+    margin-bottom: 15px;
+  }
+  .service_box {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .box1 {
+    position: relative;
+    border: 1px solid rgb(230, 230, 230);
+    margin: 10px;
+    margin-bottom: 40px;
+    height: 40%;
+    width: 90%;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    padding: 50px;
+  }
+
+  .textses {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .txty {
+    justify-content: center;
+    width: 100%;
+    float: left;
+    padding: 15px;
+    color: white;
+    padding-bottom: 20px;
+    margin-top: 25px;
+  }
+
+  .txty h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .txty p {
+    font-weight: 300;
+    font-size: 19px;
+    text-align: center;
+
+  }
+
+  .btnes {
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 0px;
+    justify-content: center;
+    position: relative;
+  }
+
+  .btnes button {
+    background-color: transparent;
+    color: white;
+    border: 3px solid #ccc;
+    border-radius: 22px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 70px;
+    padding: 12px 60px 12px 60px;
+    font-weight: 600;
+  }
+
+  .port_img {
+    object-fit: cover;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 40px;
+  }
+
+  .p_i img {
+    width: 520px;
+    height: 322px;
+    padding: 10px;
+  }
+
+  .team {
+    margin-bottom: 20px;
+  }
+
+  .team_img {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+  }
+  .t_i {
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .t_i img {
+    background-repeat: no-repeat;
+    height: 286px;
+    width: 420px;
+    padding: 15px;
+    justify-content: space-evenly;
+    background-size: cover;
+  }
+
+  .t_i1 {
+    color: rgb(17, 17, 17);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .t_ip1 {
+    color: rgb(17, 17, 17);
+    text-align: center;
+    font-style: italic;
+    display: block;
+    font-size: 15px;
+  }
+
+  .loge {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .contact {
+    background-color: #f7f7f7;
+  }
+
+  .genus {
+    width: 80%;
+    float: right;
+    margin-right: 80px;
+  }
+  .adr_form {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    padding-left: 30px;
+  }
+
+  .icon-roun {
+    padding-left: 320px;
+    padding-top: 100px;
+    color: #2dc997;
+    font-size: larger;
+    padding: 10px;
+  }
+
+  .loges {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+    padding-left: 0px;
+  }
+  .loges i {
+    justify-content: space-between;
+    font-size: 24px;
+    color: #333;
+  }
+  .contact_form {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(234, 234, 234);
+    flex-wrap: wrap;
+  }
+
+  .inpfield {
+    padding: 30px;
+    width: 100%;
+    float: left;
+    gap: 10px;
+  }
+
+  .inpfield input,
+  .inpfield textarea,
+  .inpfield button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    float: right;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .inpfield button {
+    color: white;
+    background-color: rgb(45, 201, 151);
+    margin-left: 190px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 25%;
+    float: right;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .inpfield button:hover {
+    background-color: rgb(51, 228, 172);
+    cursor: pointer;
+  }
+
+}
